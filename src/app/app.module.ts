@@ -3,10 +3,11 @@ import { BrowserModule } from '@angular/platform-browser';
 
 import { AppComponent } from './app.component';
 import { CouserComponent } from './course.component';
+import { AboutComponent } from './about/about.component';
 
 @NgModule({
   declarations: [
-    AppComponent,CouserComponent
+    AppComponent,CouserComponent, AboutComponent
   ],
   imports: [
     BrowserModule

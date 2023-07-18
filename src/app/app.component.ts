@@ -7,5 +7,7 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'firstapp';
-  welcome = 'welcome1'
+  welcome = 'welcome1';
+  message = 'welcome2';
+  result = true;
 }

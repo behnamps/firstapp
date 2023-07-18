@@ -7,7 +7,16 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'firstapp';
-  welcome = 'welcome1';
-  message = 'welcome2';
-  result = true;
+  myp = 'ptag'
+
+  FullName = 'behnam';
+  Email ='behnam@gmail.com ';
+  Phone = '091000022';
+
+  Toggle : boolean = false;
+
+
+  ShowMessage() : void {
+    this.Toggle = !this.Toggle;
+  }
 }

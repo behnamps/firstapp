@@ -351,17 +351,23 @@
 
   </div>
 
-  <div [class] = 'welcome'>
-    Welcome to my store
-  </div>
-  
-  <div [class] = 'message'>
-    please recharge your card.
-  </div>
+  <p [class] = 'myp'>
+    Event Handler
+    <button (click) = 'ShowMessage()'>press the button</button>
+  </p>
 
-  <div [style.color] = "result? 'green' : 'red' ">
-      my result
-  </div>
+  <table> 
+    <tr>
+      <th>Name</th>
+      <th>Email</th>
+      <th>Phone</th>
+    </tr>
+    <tr *ngIf="Toggle"> 
+      <td>{{FullName}}</td>
+      <td>{{Email}}</td>
+      <td>{{Phone}}</td>
+    </tr>
+  </table>
 
   <app-course></app-course>
   <!-- Resources -->

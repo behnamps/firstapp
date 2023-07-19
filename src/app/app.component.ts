@@ -1,4 +1,4 @@
-import { Component } from '@angular/core';
+import { Component, Input } from '@angular/core';
 
 @Component({
   selector: 'app-root',
@@ -8,6 +8,7 @@ import { Component } from '@angular/core';
 export class AppComponent {
   title = 'firstapp';
   myp = 'ptag'
+  myForm = 'myFormCss'
 
   FullName = 'behnam';
   Email ='behnam@gmail.com ';
@@ -18,5 +19,9 @@ export class AppComponent {
 
   ShowMessage() : void {
     this.Toggle = !this.Toggle;
+  }
+
+  ValidateForm(formValue : string) : void {
+    console.log(formValue);
   }
 }

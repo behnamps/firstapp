@@ -369,11 +369,23 @@
     </tr>
   </table>
 
+
+  <p>
+    your name : <input type="text" required [(ngModel)]="FullName" >
+  </p>
+
+  <br><br><br>
   <div [class] = 'myForm'>
     <input type="text" #userInput placeholder="please enter username"><br>
     <button (click) = 'ValidateForm(userInput.value)'>Click On ME !!!</button>
   </div>
 
+
+  <app-about>
+    <h2>
+      this is about our company.
+    </h2>
+  </app-about>
   <app-course></app-course>
   <!-- Resources -->
   <h2>Resources</h2>

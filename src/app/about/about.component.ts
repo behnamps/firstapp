@@ -6,9 +6,9 @@ import { Component, EventEmitter, Input, Output } from '@angular/core';
   styleUrls: ['./about.component.css']
 })
 export class AboutComponent {
-  @Input() 
-  parentData: string = '';
+  // @Input() 
+  // parentData: string = '';
   
-  @Output()
-  public childData = new EventEmitter();
+  // @Output()
+  // public childData = new EventEmitter();
 }

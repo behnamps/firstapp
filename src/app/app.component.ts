@@ -6,5 +6,5 @@ import { AfterViewInit, Component, Input } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-    insert = 'My owner is behnam rezaei';
+
 }

@@ -7,4 +7,12 @@ import { AfterViewInit, Component, Input } from '@angular/core';
 })
 export class AppComponent {
 
+
+  persons: any[] = [
+    {name : 'behnam', age : '35' , game: 'cs'},
+    {name : 'Ali Reza', age : '48' , game: 'minecraft'},
+    {name : 'Mohammad Reza', age : '58' , game: 'call of duty'},
+    {name : 'Mysam', age : '39' , game: 'rainbow'},
+  ];
+
 }
